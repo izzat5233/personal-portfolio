@@ -1,5 +1,9 @@
+import Layout from "@/components/Layout";
+
 export default function Index() {
     return (
-        <h1>Welcome to my Portfolio!</h1>
+        <Layout title="Home | Portfolio">
+            <h1>Welcome to my Portfolio!</h1>
+        </Layout>
     );
 }
