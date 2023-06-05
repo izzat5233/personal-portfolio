@@ -1,35 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@0,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Poppins:wght@100;400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-    --color-primary: #1DA1F2;
-    --color-secondary: #134B5C;
-    --color-accent: #E94560;
-    --color-neutral: #E6E6EA;
+    --color-primary: #00ADB5;
+    --color-secondary: #97EAD2;
+    --color-accent: #FF729F;
+    --color-neutral: #DBE2EF;
     --color-fore: #333333;
-    --color-back: #FFFFFF;
+    --color-back: #F9F7F7;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-primary: #0D8BDB;
-        --color-secondary: #102A43;
-        --color-accent: #E94560;
-        --color-neutral: #161E2E;
+        --color-neutral: #393E46;
         --color-fore: #FFFFFF;
-        --color-back: #333333;
+        --color-back: #222831;
     }
 }
 
 body {
-    @apply bg-back text-fore;
-    @apply text-2xl;
+    @apply bg-back text-fore text-2xl;
 }
 
 .font-title {
-    @apply italic;
-    @apply text-4xl;
+    @apply font-bold text-5xl;
 }
