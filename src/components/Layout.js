@@ -7,10 +7,8 @@ export default function Layout({children, title = "Portfolio"}) {
             <Head>
                 <title>{title}</title>
             </Head>
-            <main>
-                {children}
-            </main>
+            <main>{children}</main>
             <Footer/>
         </>
-    )
+    );
 }
