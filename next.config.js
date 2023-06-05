@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    favicon: './favicon.ico'
-}
+const nextConfig = {}
 
 module.exports = nextConfig
