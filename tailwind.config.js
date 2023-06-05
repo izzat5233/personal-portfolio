@@ -21,6 +21,9 @@ module.exports = {
                 'back': 'var(--color-back)',
             },
         },
+        transitionDuration: {
+            DEFAULT: '250ms'
+        }
     },
     variants: {},
     plugins: [],
