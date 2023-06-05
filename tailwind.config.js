@@ -8,11 +8,9 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
+                'title': ['Poppins', 'sans-serif'],
                 'sans': ['Lato', 'sans-serif'],
                 'cursive': ['Dancing Script', 'cursive'],
-            },
-            fontSize: {
-                'bigger': '1.25em',
             },
             colors: {
                 'primary': 'var(--color-primary)',
