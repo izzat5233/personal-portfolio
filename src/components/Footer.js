@@ -3,7 +3,7 @@ import {LuGithub, LuLinkedin, LuTwitter} from "react-icons/lu";
 export function Icon({children, href}) {
     return (
         <a
-            className="transition-all hover:text-accent"
+            className="transition-all hover:text-primary"
             href={href}
             target="_blank"
             rel="noopener noreferrer"
@@ -33,7 +33,7 @@ export default function Footer() {
                     </Icon>
                 </div>
                 <Signature>
-                    Crafted with <span className="text-accent">&#10084;</span> by Izzat
+                    Crafted with <span className="text-primary">&#10084;</span> by Izzat
                     Alsharif
                 </Signature>
             </div>
