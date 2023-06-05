@@ -6,7 +6,7 @@ export default function Index() {
             <Section>
                 <div className="flex flex-col justify-center gap-10 sm:flex-row p-5">
                     <img
-                        src="/backgrounds/avatar.jpg"
+                        src="./backgrounds/avatar.jpg"
                         alt="Avatar"
                         className="sm:mx-10 sm:w-80 w-full rounded-full border-hover-effect"
                     />

@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    assetPrefix: '',
+    favicon: './favicon.ico'
 }
 
 module.exports = nextConfig
