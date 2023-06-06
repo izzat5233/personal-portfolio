@@ -1,5 +1,7 @@
-import Layout from "@/components/Layout";
 import Image from "next/image";
+import Layout from "@/components/Layout";
+import {LuGithub, LuLinkedin, LuMail, LuTwitter} from "react-icons/lu";
+import {IconLink} from "@/components/Custom";
 
 export default function Index() {
     return (
@@ -7,7 +9,7 @@ export default function Index() {
             <Section>
                 <div className="flex flex-col justify-center gap-10 sm:flex-row p-5">
                     <Image
-                        src="/backgrounds/avatar.jpg"
+                        src="/backgrounds/me.jpg"
                         width={500}
                         height={500}
                         alt="Avatar"
@@ -15,9 +17,17 @@ export default function Index() {
                     />
                     <div className="flex flex-col gap-10">
                         <h1 className="mt-5 flex-initial font-title">Hi there!</h1>
-                        <p className="flex-initial text-4xl flex-grow">
+                        <p className="flex-initial text-4xl">
                             I am Izzat, a Computer Engineer.
                         </p>
+                        <div className="flex-initial flex gap-5 space-x-4">
+                            <IconLink href="https://github.com/izzat5233">
+                                <LuGithub/>
+                            </IconLink>
+                            <IconLink href="mailto://contact@izzatalsharif.com">
+                                <LuMail/>
+                            </IconLink>
+                        </div>
                     </div>
                 </div>
             </Section>
