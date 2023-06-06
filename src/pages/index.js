@@ -1,12 +1,15 @@
 import Layout from "@/components/Layout";
+import Image from "next/image";
 
 export default function Index() {
     return (
         <Layout title="Home | Portfolio">
             <Section>
                 <div className="flex flex-col justify-center gap-10 sm:flex-row p-5">
-                    <img
-                        src="./backgrounds/avatar.jpg"
+                    <Image
+                        src="/backgrounds/avatar.jpg"
+                        width={500}
+                        height={500}
                         alt="Avatar"
                         className="sm:mx-10 sm:w-80 w-full rounded-full border-hover-effect"
                     />
