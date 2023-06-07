@@ -32,7 +32,7 @@ hr, .hr {
 }
 
 h1, .h1 {
-    @apply font-bold text-primary text-5xl;
+    @apply font-bold font-title text-primary text-5xl;
 }
 
 .border-hover-effect {

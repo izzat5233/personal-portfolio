@@ -15,7 +15,7 @@ export function TitleHr({title}) {
     return (
         <div className="flex items-center gap-5">
             <hr/>
-            <p className="font-bold font-cursive text-4xl text-fore">{title}</p>
+            <p className="font-bold font-title text-4xl text-fore">{title}</p>
             <hr/>
         </div>
     );
