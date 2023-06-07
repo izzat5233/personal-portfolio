@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Layout from "@/components/Layout";
 import {LuGithub, LuMail} from "react-icons/lu";
-import {titleHr, IconLink} from "@/components/Custom";
+import {TitleHr, IconLink} from "@/components/Custom";
 
 export default function Index() {
     return (
         <Layout title="Home | Portfolio">
-            <Section>
+            <Section title={"something"}>
                 <div className="flex flex-col justify-center gap-10 sm:flex-row p-5">
                     <Image
                         src="/backgrounds/me.jpg"
@@ -38,7 +38,7 @@ export default function Index() {
 export function Section({children, title}) {
     return (
         <>
-            {title ? <titleHr title={title}/> : ""}
+            {title && <TitleHr title={title}/>}
             <section className="p-10 my-10">
                 {children}
             </section>

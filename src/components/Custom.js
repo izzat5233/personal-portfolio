@@ -11,7 +11,7 @@ export function IconLink({children, href}) {
     );
 }
 
-export function titleHr({title}) {
+export function TitleHr({title}) {
     return (
         <div className="flex items-center gap-5">
             <hr/>
