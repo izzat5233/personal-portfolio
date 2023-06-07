@@ -10,3 +10,13 @@ export function IconLink({children, href}) {
         </a>
     );
 }
+
+export function titleHr({title}) {
+    return (
+        <div className="flex items-center gap-5">
+            <hr/>
+            <p className="font-bold font-cursive text-4xl text-fore">{title}</p>
+            <hr/>
+        </div>
+    );
+}

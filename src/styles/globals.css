@@ -27,11 +27,11 @@ body {
     @apply bg-back text-fore text-2xl;
 }
 
-hr {
-    @apply border-t-4 rounded-full border-fore my-10 mx-auto w-1/2;
+hr, .hr {
+    @apply flex-grow border-t-2 rounded-full border-fore my-10 mx-5;
 }
 
-.font-title {
+h1, .h1 {
     @apply font-bold text-primary text-5xl;
 }
 

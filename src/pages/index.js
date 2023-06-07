@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Layout from "@/components/Layout";
-import {LuGithub, LuLinkedin, LuMail, LuTwitter} from "react-icons/lu";
-import {IconLink} from "@/components/Custom";
+import {LuGithub, LuMail} from "react-icons/lu";
+import {titleHr, IconLink} from "@/components/Custom";
 
 export default function Index() {
     return (
@@ -16,7 +16,7 @@ export default function Index() {
                         className="sm:mx-10 sm:w-80 w-full rounded-full border-hover-effect"
                     />
                     <div className="flex flex-col gap-10">
-                        <h1 className="mt-5 flex-initial font-title">Hi there!</h1>
+                        <h1 className="mt-5 flex-initial">Hi there!</h1>
                         <p className="flex-initial text-4xl">
                             I am Izzat, a Computer Engineer.
                         </p>
@@ -31,15 +31,17 @@ export default function Index() {
                     </div>
                 </div>
             </Section>
-            <hr/>
         </Layout>
     );
 }
 
-export function Section({children}) {
+export function Section({children, title}) {
     return (
-        <section className="p-10 my-10">
-            {children}
-        </section>
+        <>
+            {title ? <titleHr title={title}/> : ""}
+            <section className="p-10 my-10">
+                {children}
+            </section>
+        </>
     );
 }
