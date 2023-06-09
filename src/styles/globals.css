@@ -30,7 +30,7 @@ body {
 }
 
 hr, .hr {
-    @apply flex-grow border-t-2 rounded-full border-fore my-10 mx-5;
+    @apply flex-grow border-t-2 rounded-full border-fore my-10 sm:w-1/2 sm:mx-auto;
 }
 
 h1, .h1 {
