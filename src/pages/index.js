@@ -6,7 +6,7 @@ import {TitleHr, IconLink} from "@/components/Custom";
 export default function Index() {
     return (
         <Layout title="Home | Portfolio">
-            <Section title="About">
+            <Section>
                 <div className="flex flex-col justify-center gap-10 sm:flex-row p-5">
                     <Image
                         src="/backgrounds/me.jpg"
