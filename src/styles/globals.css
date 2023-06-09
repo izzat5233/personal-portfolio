@@ -24,7 +24,9 @@
 }
 
 body {
-    @apply bg-back text-fore text-2xl;
+    background-image: url("/backgrounds/struckaxiom.png");
+    @apply bg-back text-fore text-2xl bg-fixed;
+    @apply bg-blend-color-burn
 }
 
 hr, .hr {
